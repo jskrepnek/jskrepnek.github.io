@@ -35,3 +35,12 @@ body {
 .container .text-muted {
   margin: 20px 0;
 }
+
+.mast {
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  font-family:Tahoma, Geneva, sans-serif;
+}
