@@ -4,9 +4,9 @@ title:  "AngularJS text carousel directive"
 date:   2013-12-18 7:11
 categories: angularjs directives
 ---
-![carousel](http://www.burnabyvillagemuseum.ca/assets/Images/carousel-wide.jpg)
-
 A primitive, non-interactive text carousel directive for AngularJS [gist](https://gist.github.com/jskrepnek/8024016).  It requires jQuery for the fading animations, but you could use pure css 3 transitions to remove that dependency.</p>
+
+![carousel](http://www.burnabyvillagemuseum.ca/assets/Images/carousel-wide.jpg)
 
 A nice extension would involve seeding the values with an array of strings on the scope.  The interface could be made to support either use case seamlessly.
 
