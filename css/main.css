@@ -52,8 +52,29 @@ p {
 }
 
 .post p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.7em;
-  line-height: 1.6em;
-  color: #3A4145;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #454441;
+}
+
+.post a {
+  font-weight: 600;
+  color: #222;
+  text-decoration: none;
+}
+
+.post h1 {
+  position: relative;
+  width: 100%;
+  min-width: 20px;
+  display: inline-block;
+  font-family: KlavikaBlack, Titillium, Arial, sans-serif;
+  font-size: 46px;
+  line-height: 46px;
+  letter-spacing: -1px;
+}
+
+.post a:hover, a:focus {
+  text-decoration: underline;
 }
