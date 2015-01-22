@@ -2,12 +2,23 @@
 layout: default
 title: Yes
 ---
-
-<div>
-    {% assign recent_post = site.posts.first %}
-  <div class="post">
-    <h1><a href="{{ recent_post.url }}">{{ recent_post.title }}</a></h1>
-    <h4>{{ recent_post.date | date_to_string }}</h4>
-    <div>{{ recent_post.content }}</div>
+<div class="blog-header">
+  <h1 class="blog-title">People Coding</h1>
+  <p class="lead blog-description">Bloggins by Joel Skrepnek</p>
+</div>
+<div class="row">
+  <div class="col-sm-8 blog-main">
+    <div class="blog-post">
+      {% assign recent_post = site.posts.first %}
+      <h2 class="blog-post-title"><a href="recent_post.url">{{ recent_post.title }}</a></h2>
+      <p class="blog-post-meta">{{ recent_post.date | date_to_string }}</p>
+      <p>{{ recent_post.content }}</p>
+    </div>
+  </div>
+  <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+    <div class="sidebar-module sidebar-module-inset">
+      <h4>About</h4>
+      <p></p>
+    </div>
   </div>
 </div>
