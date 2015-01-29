@@ -1,9 +1,16 @@
 ---
 layout: default
 ---
-<div class="post">
-<h1>{{ page.title }}</h1>
-<h4 class="meta">{{ page.date | date_to_string }}</h4>
-<hr>
-<div>{{ content }}</div>
+<div class="blog-header">
+    <h1 class="blog-title"><a href="/">{{ site.name }}</a></h1>
+    <p class="lead blog-description">people, coding, people coding, and other combinations</p>
+</div>
+<div class="row">
+    <div class="col-sm-12 blog-main">
+        <div class="blog-post">
+            <h2 class="blog-post-title">{{ page.title }}</h2>
+            <p class="blog-post-meta">{{ page.date | date_to_string }}</p>
+            <p>{{ content }}</p>
+        </div>
+    </div>
 </div>
