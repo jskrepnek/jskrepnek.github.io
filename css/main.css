@@ -155,6 +155,10 @@ h6, .h6 {
   margin-right: auto;
 }
 
+.blog-post-nav {
+  text-align: center;
+}
+
 /*
  * Footer
  */

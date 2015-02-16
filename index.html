@@ -12,6 +12,10 @@ layout: default
       <h2 class="blog-post-title"><a href="{{ recent_post.url }}">{{ recent_post.title }}</a></h2>
       <p class="blog-post-meta">{{ recent_post.date | date_to_string }}</p>
       <p>{{ recent_post.content }}</p>
+      <hr>
+      {% if recent_post.previous %}
+      <p class="blog-post-nav">Previously: <a href="{{ recent_post.previous.url }}">{{ recent_post.previous.title }}</a></p>
+      {% endif %}
     </div>
   </div>
   <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
