@@ -159,6 +159,13 @@ h6, .h6 {
   text-align: center;
 }
 
+.blog-post-nav-next {
+  float: left;
+}
+
+.blog-post-nav-prev {
+  float: right;
+}
 /*
  * Footer
  */

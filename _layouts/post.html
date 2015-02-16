@@ -12,12 +12,12 @@ layout: default
             <p class="blog-post-meta">{{ page.date | date_to_string }}</p>
             <p>{{ content }}</p>
             <hr>
-            <p class="blog-post-nav">
+            <p>
                 {% if page.next %}
-                Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                <span class="blog-post-nav-next">&lt;&lt; <a href="{{ page.next.url }}">{{ page.next.title }}</a></span>
                 {% endif %}
                 {% if page.previous %}
-                 Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                 <span class="blog-post-nav-prev"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>&gt;&gt;</span>
                 {% endif %}
             </p>
 
