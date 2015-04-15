@@ -4,7 +4,7 @@ title:  "Smart Client Journey - Hello World"
 date:   2015-04-14 07:30
 tags: software smartclients eventsourcing
 ---
-A few days ago, more than two months since I mentioned the idea in my last post, I finished a rudimentary "Hello World" application which demonstrates in a basic way what it looks like to build a real-time application using event sourcing.
+A few days ago, more than two months since I mentioned the idea in my last post, I finished a rudimentary "Hello World" application which demonstrates in a basic way what it looks like to build a real-time, client-side application using event sourcing.
 
 You can play around with the [demo in Azure](http://esjs-journey-1.azurewebsites.net/app/index.html) and [see the source](https://github.com/jskrepnek/esjs-journey-1).  I spent no small amount of time deploying Event Store to Azure, mostly the result of sparse documentation and extensive ignorance about Windows networking.
 
