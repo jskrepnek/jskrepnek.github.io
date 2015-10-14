@@ -2,6 +2,7 @@
 layout: post
 title:  "Smart Client Journey - Hello World"
 date:   2015-04-14 07:30
+category: eventsourcing
 tags: software smartclients eventsourcing
 ---
 A few days ago, more than two months since I mentioned the idea in my last post, I finished a rudimentary "Hello World" application which demonstrates in a basic way what it looks like to build a real-time, client-side application using event sourcing.

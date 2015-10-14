@@ -2,6 +2,7 @@
 layout: post
 title:  Domain Driven Design for Smart Client Applications
 date:   2015-03-08 9:11
+category: eventsourcing
 tags: software smartclients ddd angular
 ---
 Attending [ng-conf](http://www.ng-conf.org/), I arrived with a negative attitude about technologies like [Firebase](https://www.firebase.com/) and [Meteor](https://www.meteor.com/) - what I would describe as back end application platforms, kitchen sinks that would otherwise replace all or most of the services of a proprietary backend.  This is neat stuff, and I've used [Parse](https://www.parse.com/) before, for a mobile app, and was pleased to do so.  The thing is that I didn't see how these tools mattered to me, and other developers, building complex applications.  I couldn't see how I could leverage these new architectures to solve non-trivial business problems.

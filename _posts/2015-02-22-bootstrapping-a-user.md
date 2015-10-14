@@ -2,6 +2,7 @@
 layout: post
 title:  "Browserside Eventsourcing: Bootstrapping a user"
 date:   2015-02-22 16:38
+category: eventsourcing
 tags: software smartclients eventsourcing
 ---
 When a user signs in, we need to be able to determine what aggregates ("Boards") they have created or, in a collaborative model, have been shared with him.  These represent the event streams that the Read infrastructure would observe to construct and update read models.  Since streams are globally unique, the applications can't guess at them.  So there needs to be a convention whereby a client can discover this information.

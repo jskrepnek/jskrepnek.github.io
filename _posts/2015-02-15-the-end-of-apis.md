@@ -2,7 +2,8 @@
 layout: post
 title:  "The End of APIs"
 date:   2015-02-15 14:39
-categories: software smartclients eventsourcing
+category: eventsourcing
+tags: software smartclients eventsourcing
 ---
 I've spent the better part of the last 3 years developing [full stack](http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/) solutions that integrate rich but subservient "smart" clients with omniscient backend services realized through [Domain Driven Design](http://amzn.com/0321125215) and [Event Sourcing](https://msdn.microsoft.com/en-us/library/jj554200.aspx).
 

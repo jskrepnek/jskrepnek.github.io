@@ -3,14 +3,14 @@ layout: default
 ---
 <div class="blog-header">
   <h1 class="blog-title">{{ site.name }}</h1>
-  <p class="lead blog-description">people, coding, people coding, and other combinations</p>
+  <p class="lead">people, coding, people coding, and other combinations</p>
 </div>
 <div class="row">
   <div class="col-sm-8 blog-main">
     <div class="blog-post">
       {% assign recent_post = site.posts.first %}
       <h2 class="blog-post-title"><a href="{{ recent_post.url }}">{{ recent_post.title }}</a></h2>
-      <p class="blog-post-meta">{{ recent_post.date | date_to_string }}</p>
+      <p class="blog-post-meta">{{ recent_post.date | date_to_string }}, {{ recent_post.category }}</p>
       <p>{{ recent_post.content }}</p>
       <hr>
       {% if recent_post.previous %}
@@ -19,6 +19,12 @@ layout: default
     </div>
   </div>
   <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+    <div class="sidebar-module sidebar-module-inset">
+      <h4>Categories</h4>
+      <ul>
+          <li><a href="/eventsourcing">Eventsourcing</a></li>
+      </ul>
+    </div>
     <div class="sidebar-module sidebar-module-inset">
       <h4>About</h4>
       <p>I am <a href="http://en.wikipedia.org/wiki/Joel_Skrepnek">Joel Skrepnek</a>.</p>
