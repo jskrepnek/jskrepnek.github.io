@@ -16,5 +16,7 @@ apt-get -y install ruby2.1-dev
 #install github pages requirements (jekyll)
 sudo gem update --system
 sudo gem install github-pages
+sudo gem install redcarpet
 
 apt-get -y install nodejs
+
